@@ -17,9 +17,9 @@ jobs:
         run: |
           mkdir -p assets
           curl -fsSL -o assets/github-stats.svg \
-            "https://github-readme-stats-one-bice.vercel.app/api?username=AlexandreZanata&show_icons=true&theme=tokyonight&hide_border=true"
+            "https://github-readme-stats-one-bice.vercel.app/api?username=AlexandreZanata&show_icons=true&theme=tokyonight&hide_border=true&card_width=1200"
           curl -fsSL -o assets/top-langs.svg \
-            "https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AlexandreZanata&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+            "https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AlexandreZanata&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=1200"
           curl -fsSL -o assets/activity-graph.svg \
             "https://github-readme-activity-graph.vercel.app/graph?username=AlexandreZanata&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20graph"
           head -c 20 assets/github-stats.svg | grep -q svg
