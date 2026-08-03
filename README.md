@@ -53,12 +53,14 @@ TypeScript is my primary language across the largest codebases I ship — web ap
 
 ### Stats
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=AlexandreZanata&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AlexandreZanata&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true" height="165" alt="Top languages" />
+![GitHub stats](https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/github-stats.svg)
+![Top languages](https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/top-langs.svg)
+
+![Activity graph](https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/activity-graph.svg)
 
 ### Contribution snake
 
-<img src="https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+![Contribution snake](https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
