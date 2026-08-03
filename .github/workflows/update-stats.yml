@@ -1,4 +1,4 @@
-name: Update stats cards
+name: Update contribution graph
 
 on:
   schedule:
@@ -13,22 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download stats SVGs
+      - name: Download contribution graph
         run: |
           mkdir -p assets
-          curl -fsSL -o assets/github-stats.svg \
-            "https://github-readme-stats-one-bice.vercel.app/api?username=AlexandreZanata&show_icons=true&theme=tokyonight&hide_border=true&card_width=1200"
-          curl -fsSL -o assets/top-langs.svg \
-            "https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AlexandreZanata&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=1200"
           curl -fsSL -o assets/activity-graph.svg \
             "https://github-readme-activity-graph.vercel.app/graph?username=AlexandreZanata&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20graph"
-          head -c 20 assets/github-stats.svg | grep -q svg
-          head -c 20 assets/top-langs.svg | grep -q svg
+          head -c 20 assets/activity-graph.svg | grep -q svg
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/*.svg
-          git diff --staged --quiet || git commit -m "chore: refresh profile stats cards"
+          git add assets/activity-graph.svg
+          git diff --staged --quiet || git commit -m "chore: refresh contribution graph"
           git push

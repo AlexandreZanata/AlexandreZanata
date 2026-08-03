@@ -51,11 +51,9 @@ TypeScript is my primary language across the largest codebases I ship — web ap
 
 <div align="center">
 
-### Stats
+### Contribution graph
 
-<img src="https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/github-stats.svg" alt="GitHub stats" width="100%" />
-<img src="https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/top-langs.svg" alt="Top languages" width="100%" />
-<img src="https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/activity-graph.svg" alt="Activity graph" width="100%" />
+<img src="https://raw.githubusercontent.com/AlexandreZanata/AlexandreZanata/main/assets/activity-graph.svg" alt="Contribution graph" width="100%" />
 
 ### Contribution snake
 
