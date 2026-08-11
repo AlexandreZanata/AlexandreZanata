@@ -61,23 +61,3 @@ TypeScript is my primary language across the largest codebases I ship — web ap
 
 </div>
 
----
-
-### Featured work
-
-| Project | Stack | Focus |
-|:--------|:------|:------|
-| [brazil-fuel-prices-app](https://github.com/AlexandreZanata/brazil-fuel-prices-app) | Kotlin | Mobile fuel prices |
-| [OpenCNPJ](https://github.com/AlexandreZanata/OpenCNPJ) | Go | Open company data |
-| [open-3d-store-free-to-use](https://github.com/AlexandreZanata/open-3d-store-free-to-use) | TypeScript | Free 3D assets |
-| [full-sales-web-system](https://github.com/AlexandreZanata/full-sales-web-system) | Rust | Sales platform |
-| [GoodPraticesForLLMsandAgents](https://github.com/AlexandreZanata/GoodPraticesForLLMsandAgents) | Shell | Agent engineering harness |
-| [open-data-agro](https://github.com/AlexandreZanata/open-data-agro) | Go | Agricultural open data |
-
----
-
-<div align="center">
-
-Building practical systems for cities, fleets, and open data — always shipping.
-
-</div>
